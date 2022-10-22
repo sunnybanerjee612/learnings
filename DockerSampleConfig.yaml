@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name:sunnysat
-        image: sunnysat.azurecr.io/sunnyazure:latest
+        image: sunnysat.azurecr.io/sunnyrepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
