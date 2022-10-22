@@ -13,8 +13,8 @@ spec:
         app: Dockersampleconfig
     spec:
       containers:
-      - name: cdxdockerrepos
-        image: cdxsamplecr.azurecr.io/cdxdockerrepos:latest
+      - name:sunnysat
+        image: sunnysat.azurecr.io/sunnyazure:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
